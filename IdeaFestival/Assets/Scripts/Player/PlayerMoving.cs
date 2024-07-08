@@ -6,8 +6,8 @@ public class PlayerMoving : MonoBehaviour
     public float speed;
 
     private Vector3 vector;
-
-    public float runSpeed;
+    [SerializeField]
+    private float runSpeed;
     private float applyRunSpeed;
     private bool applyRun;
 
