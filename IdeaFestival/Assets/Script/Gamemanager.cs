@@ -40,14 +40,17 @@ public class Gamemanager : MonoBehaviour
     }
     public void Backmenu()
     {
+        //메인메뉴로 가기
         SceneManager.LoadScene("Mainmenu");
     }
     public void quit()
     {
+        //게임끄기
         Application.Quit();
     }
     public void REturn()
     {
+        //게임으로 돌아가기
         Time.timeScale = 1;
         panel.SetActive(false);
         darkBackground.SetActive(false);
