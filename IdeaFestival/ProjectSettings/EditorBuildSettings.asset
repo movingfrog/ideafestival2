@@ -6,7 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
+<<<<<<< Updated upstream
     path: Assets/Settings/Scenes/URP2DSceneTemplate.unity
+=======
+    path: Assets/Settings 1/Settings/Scenes/URP2DSceneTemplate.unity
+>>>>>>> Stashed changes
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 0
     path: Assets/Scenes/qwe.unity
