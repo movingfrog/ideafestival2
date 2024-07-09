@@ -7,7 +7,7 @@ public class ItemSlotUI : MonoBehaviour
     public Button button;
     public Image icon;
     public TextMeshPro quatityText;
-    private ItemSlotUI curSlot;
+    private ItemSlot curSlot;
 
     public int index;
 
@@ -17,7 +17,18 @@ public class ItemSlotUI : MonoBehaviour
         curSlot = slot;
         icon.gameObject.SetActive(false);
         icon.sprite = slot.item.icon;
-        quatityText.text = slot.quatity > 1 ? slot.quatity :
+        quatityText.text = slot.quatity > 1 ? slot.quatity.ToString() : string.Empty;
     }
 
+    public void Clear()
+    {
+        curSlot = null;
+        icon.gameObject.SetActive(false);
+        quatityText.text = string.Empty;
+    }
+
+    public void OnButtonClick()
+    {
+        Inventory.instance.SelectItem(index);
+    }
 }
