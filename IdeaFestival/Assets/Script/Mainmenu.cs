@@ -24,7 +24,7 @@ public class Mainmenu : MonoBehaviour
 
     void Update()
     {
-        
+
     }
 
     public void starts()
