@@ -411,11 +411,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<<< Updated upstream:IdeaFestival/Assets/Scenes/ANOT Font Demo Scene.unity
+
   - component: {fileID: 5902223167487078793}
   - component: {fileID: 1551468125191372813}
   - component: {fileID: 7723677961505577599}
-========
+
   - component: {fileID: 1103026030}
   - component: {fileID: 1103026029}
   - component: {fileID: 1103026028}
@@ -563,7 +563,7 @@ GameObject:
   - component: {fileID: 1645333407}
   - component: {fileID: 1645333406}
   - component: {fileID: 1645333405}
->>>>>>>> Stashed changes:IdeaFestival/Assets/Scenes/TestScene.unity
+
   m_Layer: 5
   m_Name: Sample text
   m_TagString: Untagged
@@ -588,7 +588,7 @@ RectTransform:
   m_GameObject: {fileID: 808189950803958104}
   m_LocalRotation: {x: 0, y: 0, z: 0.06104851, w: 0.99813485}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-<<<<<<<< Updated upstream:IdeaFestival/Assets/Scenes/ANOT Font Demo Scene.unity
+
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -602,7 +602,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &7723677961505577599
 MonoBehaviour:
-========
+
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -616,7 +616,7 @@ MonoBehaviour:
   m_Pivot: {x: 0, y: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
->>>>>>>> Stashed changes:IdeaFestival/Assets/Scenes/TestScene.unity
+
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
