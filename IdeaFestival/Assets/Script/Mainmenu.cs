@@ -1,7 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -58,5 +54,6 @@ public class Mainmenu : MonoBehaviour
     public void SetVolume(float volume)
     {
         audioSource.volume = volume; // 오디오 볼륨을 슬라이더 값으로 설정
+        PlayerPrefs.SetFloat("Volume", volume); // 슬라이더 값을 PlayerPrefs에 저장
     }
 }
