@@ -4,21 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 0
-<<<<<<< Updated upstream
-    path: Assets/Settings/Scenes/URP2DSceneTemplate.unity
-=======
-    path: Assets/Settings 1/Settings/Scenes/URP2DSceneTemplate.unity
->>>>>>> Stashed changes
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
-    path: Assets/Scenes/qwe.unity
-    guid: a1b89cc6b74fa584582e893eed2f44ac
-  - enabled: 1
-    path: Assets/Scenes/Mainmenu.unity
-    guid: b8f0ac1cc318fa8488d1c4fbd1a373ec
-  - enabled: 1
-    path: Assets/Scenes/Start Stage.unity
-    guid: 2614a9630ca0422459edd73a6491c490
+  m_Scenes: []
   m_configObjects: {}
