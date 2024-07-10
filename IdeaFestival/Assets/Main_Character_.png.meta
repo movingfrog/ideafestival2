@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0026eec67a256a0438f13732da0d7909
+guid: d9490980ca718fd499f5775828716e0f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Inside_A4(tiled)_0
+      name: Main_Character__0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 672
-        width: 48
-        height: 48
+        x: 14
+        y: 261
+        width: 29
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bbe39628cbb6704a96e687aa670f6fe
-      internalID: -1560393218
+      spriteID: e6db16fce2183f749aec30ead8bccc6c
+      internalID: -45641424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_A4(tiled)_1
+      name: Main_Character__1
       rect:
         serializedVersion: 2
-        x: 48
-        y: 672
-        width: 48
-        height: 48
+        x: 60
+        y: 260
+        width: 35
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6739956c1f37fc04cb9b570a7e20d0db
-      internalID: 1769414036
+      spriteID: 4146595df831e394393146fcdedb5068
+      internalID: -1758035327
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_A4(tiled)_2
+      name: Main_Character__2
       rect:
         serializedVersion: 2
-        x: 96
-        y: 672
-        width: 48
-        height: 48
+        x: 112
+        y: 261
+        width: 29
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 240f91e71b44d4f4480b82d8805a0e27
-      internalID: -1169588377
+      spriteID: dcf9a9617dbafae4682e70e4990ee396
+      internalID: 1381347769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_A4(tiled)_3
+      name: Main_Character__3
       rect:
         serializedVersion: 2
-        x: 144
-        y: 672
-        width: 48
-        height: 48
+        x: 6
+        y: 178
+        width: 43
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2c70636214bbb14d9019e6003f48d3f
-      internalID: 463136900
+      spriteID: bd28f6c5bd650674c8d155106401863e
+      internalID: 2077549022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_A4(tiled)_4
+      name: Main_Character__4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 624
-        width: 48
-        height: 48
+        x: 66
+        y: 175
+        width: 22
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3ab97d3763f187478d4d0b062551478
-      internalID: 1240610926
+      spriteID: cf02fe4bd01c69f4e900ddc4073bb640
+      internalID: -1699035577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_A4(tiled)_5
+      name: Main_Character__5
       rect:
         serializedVersion: 2
-        x: 48
-        y: 624
-        width: 48
-        height: 48
+        x: 105
+        y: 178
+        width: 44
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcfcb543fe7a64d4891dc0af726df59c
-      internalID: 673961727
+      spriteID: b1b66829f4898b14db2add4758922abc
+      internalID: -1194467060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_A4(tiled)_6
+      name: Main_Character__6
       rect:
         serializedVersion: 2
-        x: 96
-        y: 624
-        width: 48
-        height: 48
+        x: 9
+        y: 93
+        width: 43
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80128e762f730e74bb14a6bde4079c09
-      internalID: -1002458213
+      spriteID: c4bf65b55e9157942acb905ff71b8634
+      internalID: -1885496092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_A4(tiled)_7
+      name: Main_Character__7
       rect:
         serializedVersion: 2
-        x: 144
-        y: 624
-        width: 48
-        height: 48
+        x: 68
+        y: 90
+        width: 22
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bac4bf16b8efcf45b6fa2a37231dad3
-      internalID: 1829007448
+      spriteID: b19edc5fa952adb42871f26ec80dac00
+      internalID: 1884066987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_A4(tiled)_8
+      name: Main_Character__8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 576
-        width: 48
-        height: 48
+        x: 105
+        y: 93
+        width: 44
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0d9b2efc0bc3b24a9e1689e2f147eb0
-      internalID: 61521975
+      spriteID: 6fbdd2d1346a9aa4ebac9fcbaf8de308
+      internalID: 1445746305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_A4(tiled)_9
+      name: Main_Character__9
       rect:
         serializedVersion: 2
-        x: 48
-        y: 576
-        width: 48
-        height: 48
+        x: 12
+        y: 4
+        width: 32
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,20 +326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d64654e5f406474594c016ff77a9db3
-      internalID: 1806645830
+      spriteID: 43aeda7bf11cecd489166db773b59c9d
+      internalID: 1057996684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_A4(tiled)_10
+      name: Main_Character__10
       rect:
         serializedVersion: 2
-        x: 96
-        y: 576
-        width: 48
-        height: 48
+        x: 60
+        y: 5
+        width: 35
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,20 +347,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67621ff3aa61e9f438edc5d2dc878c94
-      internalID: -204593578
+      spriteID: d62a2aabcbf997849affe6914b5c7ae1
+      internalID: 1281376652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_A4(tiled)_11
+      name: Main_Character__11
       rect:
         serializedVersion: 2
-        x: 144
-        y: 576
-        width: 48
-        height: 48
+        x: 113
+        y: 3
+        width: 32
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,113 +368,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db23fe23bf46643468d3c42813ebde75
-      internalID: 1233447165
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Inside_A4(tiled)_12
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 528
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97247e41c8a0617468bca1fd0cc3c277
-      internalID: 1540316855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Inside_A4(tiled)_13
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 528
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5639fad6889390c44a44d4f00460b54a
-      internalID: -1230296387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Inside_A4(tiled)_14
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 528
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6006c7482b88a1e4fbaf174ee977c8d1
-      internalID: -580202295
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Inside_A4(tiled)_15
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 528
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2939a587abd2e7d40b72bf45cf4fa144
-      internalID: -1608856996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Inside_A4(tiled)_16
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 528
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c08f8d3833edab64a81791dbf1208543
-      internalID: 565051722
+      spriteID: 8a6c9969ab452dc4f8eacce5598945f0
+      internalID: -1108025260
       vertices: []
       indices: 
       edges: []
@@ -490,23 +385,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Inside_A4(tiled)_0: -1560393218
-      Inside_A4(tiled)_1: 1769414036
-      Inside_A4(tiled)_10: -204593578
-      Inside_A4(tiled)_11: 1233447165
-      Inside_A4(tiled)_12: 1540316855
-      Inside_A4(tiled)_13: -1230296387
-      Inside_A4(tiled)_14: -580202295
-      Inside_A4(tiled)_15: -1608856996
-      Inside_A4(tiled)_16: 565051722
-      Inside_A4(tiled)_2: -1169588377
-      Inside_A4(tiled)_3: 463136900
-      Inside_A4(tiled)_4: 1240610926
-      Inside_A4(tiled)_5: 673961727
-      Inside_A4(tiled)_6: -1002458213
-      Inside_A4(tiled)_7: 1829007448
-      Inside_A4(tiled)_8: 61521975
-      Inside_A4(tiled)_9: 1806645830
+      Main_Character__0: -45641424
+      Main_Character__1: -1758035327
+      Main_Character__10: 1281376652
+      Main_Character__11: -1108025260
+      Main_Character__2: 1381347769
+      Main_Character__3: 2077549022
+      Main_Character__4: -1699035577
+      Main_Character__5: -1194467060
+      Main_Character__6: -1885496092
+      Main_Character__7: 1884066987
+      Main_Character__8: 1445746305
+      Main_Character__9: 1057996684
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
