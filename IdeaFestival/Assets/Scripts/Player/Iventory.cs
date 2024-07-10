@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using Unity.VisualScripting;
@@ -120,7 +118,8 @@ public class Inventory : MonoBehaviour
     {
         for(int i = 0; i < slots.Length; i++)
         {
-            return slots[i];
+            if (slots[i].item == null)
+                return slots[i];
         }
         return null;
     }
