@@ -7,11 +7,11 @@ public class PlayerMoving : MonoBehaviour
 
     private Vector3 vector;
     [SerializeField]
-    private float runSpeed;
-    private float applyRunSpeed;
+    private float runSpeed = 0.0625f;
+    private float applyRunSpeed = 0.0625f;
     private bool applyRun;
 
-    public int walkCount;
+    public int walkCount = 16;
     private int currentWalkCount;
 
     private bool canMove = true;
@@ -24,7 +24,10 @@ public class PlayerMoving : MonoBehaviour
             applyRun = true;
         }
         else
+        {
             applyRunSpeed = 0;
+            applyRun = false;
+        }
 
         vector.Set(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), transform.position.z);
 
@@ -34,11 +37,11 @@ public class PlayerMoving : MonoBehaviour
             {
                 transform.Translate(vector.x * (speed + applyRunSpeed), 0, 0);
             }
-            else if (vector.y != 0)
+            if (vector.y != 0)
             {
                 transform.Translate(0, vector.y * (speed + applyRunSpeed), 0);
             }
-            if(applyRun)
+            if (applyRun)
                 currentWalkCount++;
             currentWalkCount++;
             yield return new WaitForSeconds(0.01f);
@@ -50,10 +53,10 @@ public class PlayerMoving : MonoBehaviour
     private void Update()
     {
 
-        if((Input.GetAxisRaw("Horizontal") != 0||Input.GetAxisRaw("Vertical") != 0)&&canMove)
+        if ((Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0) && canMove)
         {
             canMove = false;
             StartCoroutine(MoveCoroutine());
-        }  
+        }
     }
 }
